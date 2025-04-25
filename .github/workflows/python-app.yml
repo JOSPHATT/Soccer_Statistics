@@ -15,10 +15,10 @@ jobs:
 
     steps:
       - name: Checkout Repository Content
-        uses: actions/checkout@v2 # Checkout the repository content to GitHub runner.
+        uses: actions/checkout@v3 # Checkout the repository content to GitHub runner.
 
       - name: Setup Python Version
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: 3.11 # Install the Python version needed
 
